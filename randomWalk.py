@@ -5,15 +5,15 @@ from random import *
 wn = turtle.Screen()
 
 turtlebase = turtle.Turtle() 
-turtle1 = turtle.Turtle() 
+c = turtle.Turtle() 
 
-turtle1.color("blue") 
-turtle1.pencolor("blue") 
+c.color("blue") 
+c.pencolor("blue") 
 
-count = 0 
-while count <= 2000: 
-    turtle1.setheading(randint(0, 360)) 
-    turtle1.forward(randint(-10, 10)) 
-    count = count + 1
+i = 0 
+while i != 2000: 
+    c.setheading(randint(0, 360)) 
+    c.forward(randint(-10, 10)) 
+    i = i + 1
 
 wn.mainloop ()
